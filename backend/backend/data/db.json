@@ -1,0 +1,65 @@
+{
+  "prescriptions": [
+    {
+      "id": "95d41a4d-6cfa-4072-8024-d4e061291535",
+      "patientId": "swithan",
+      "patientName": "swithan",
+      "medications": [
+        {
+          "name": "DOLO ",
+          "dose": "650mg",
+          "times": [
+            "1",
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "startDate": "2025-11-28",
+      "endDate": "2025-12-28",
+      "doctor": "vikas",
+      "createdAt": "2025-11-28T13:43:48.740Z"
+    },
+    {
+      "id": "a06756f4-5e9e-48c1-a50e-c4593f39acc8",
+      "patientId": "john-1",
+      "patientName": "John Doe",
+      "medications": [
+        {
+          "name": "Med A",
+          "dose": "10mg",
+          "times": [
+            "08:00",
+            "20:00"
+          ]
+        }
+      ],
+      "startDate": "2025-11-01",
+      "endDate": "2025-12-01",
+      "doctor": "Dr Smith",
+      "createdAt": "2025-11-28T13:45:52.634Z"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "778756b8-7151-4f47-a0cc-d3f22a8f7363",
+      "prescriptionId": "95d41a4d-6cfa-4072-8024-d4e061291535",
+      "medicationName": "DOLO",
+      "dose": "650mg",
+      "times": [
+        "1",
+        "1",
+        "1"
+      ],
+      "startDate": "2025-11-28",
+      "endDate": "2025-12-28",
+      "notifyTo": [
+        "saharshjaksani@gmail.com"
+      ],
+      "status": "active",
+      "createdAt": "2025-11-28T13:45:14.235Z"
+    }
+  ],
+  "caregivers": [],
+  "notifications": []
+}
